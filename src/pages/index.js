@@ -5,28 +5,36 @@ import { Helmet } from "react-helmet";
 
 import { Container, Col, Row } from "react-bootstrap";
 
-import LeftSide from "../components/LeftSide";
-import SEO from "../components/seo";
+import LeftSide from "../features/LeftSide";
+import SEO from "../features/seo";
+import PageWrapper from "../features/shared/PageWrapper";
 
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import AllPosts from "../features/posts/AllPosts";
 
 ReactGA.initialize("UA-212838585-1");
 
 const HomePage = () => {
   return (
-    <Container fluid>
-      <SEO title="Zachary Kirby"></SEO>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>Zachary Kirby</title>
-      </Helmet>
-      <Row className="main-row">
-        <Col className={`left-col main-col col-12 col-md-12`}>
-          <div className="side-container"><LeftSide /></div>
-        </Col>
-      </Row>
-    </Container>
+    <PageWrapper pageName="home">
+      <Container fluid>
+        <SEO title="Zachary Kirby"></SEO>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Zachary Kirby</title>
+        </Helmet>
+        <Row className="main-row">
+          <Col className={`left-col main-col col-12 col-md-12`}>
+            <div className="side-container"><LeftSide /></div>
+          </Col>
+          <Col>
+            Writings
+            <AllPosts />
+          </Col>
+        </Row>
+      </Container>
+    </PageWrapper>
   )
 }
 
