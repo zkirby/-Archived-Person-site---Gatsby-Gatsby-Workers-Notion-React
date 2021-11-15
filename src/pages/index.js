@@ -25,11 +25,11 @@ const HomePage = () => {
           <title>Zachary Kirby</title>
         </Helmet>
         <Row className="main-row">
-          <Col className={`left-col main-col col-12 col-md-12`}>
+          <Col className={`left-col main-col col-8 col-md-8`}>
             <div className="side-container"><LeftSide /></div>
           </Col>
-          <Col>
-            Writings
+          <Col className="main-col col-4 col-md-4">
+            <h1 className="mt-5">Writings</h1>
             <AllPosts />
           </Col>
         </Row>

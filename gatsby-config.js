@@ -12,6 +12,7 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-transformer-remark',
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-use-query-params',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
