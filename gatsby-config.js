@@ -13,6 +13,7 @@ module.exports = {
     'gatsby-transformer-remark',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-use-query-params',
+    'gatsby-plugin-gatsby-cloud',
     {
       resolve: 'gatsby-source-filesystem',
       options: {

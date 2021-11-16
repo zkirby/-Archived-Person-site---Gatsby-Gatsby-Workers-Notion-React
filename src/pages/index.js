@@ -29,7 +29,7 @@ const HomePage = () => {
             <div className="side-container"><LeftSide /></div>
           </Col>
           <Col className="main-col col-4 col-md-4">
-            <h1 className="mt-5">Writings</h1>
+            <h2 className="mt-5">Writings</h2>
             <AllPosts />
           </Col>
         </Row>

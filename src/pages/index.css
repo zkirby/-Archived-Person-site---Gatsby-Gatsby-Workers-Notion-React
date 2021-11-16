@@ -23,6 +23,11 @@
     background: var(--c-background);
     font-family: var(--f-secondary-font) !important;
   }
+
+  .error {
+    color: red;
+    font-size: 2rem;
+  }
   
   h1 {
     font-family: var(--f-primary-font) !important;
