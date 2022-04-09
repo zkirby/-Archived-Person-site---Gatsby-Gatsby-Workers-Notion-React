@@ -18,8 +18,10 @@ const LeftSide = () => (
       Zachary Kirby
     </h1>
     <p>
-      Hi there! My name is Zach, I'm a web developer
-      with a passion for web-performance, productivity, and people.
+      Hi there! My name is Zach, I'm a web-developer with a passion for building user-centric applications.
+    </p>
+    <p>
+      I'm currently working on building <a href="https://www.vessel.land/">Vessel.</a> We're hiring, come check us out!
     </p>
     <p className="text-secondary">
       Off the web I enjoy writing,
