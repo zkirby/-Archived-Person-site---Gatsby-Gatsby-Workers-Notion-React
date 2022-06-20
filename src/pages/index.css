@@ -34,8 +34,6 @@
   }
   
   a {
-    /* color: var(--c-blue) !important; */
-    color: var(--c-black);
     font-weight: bold;
     text-decoration: none !important;
   }
@@ -92,7 +90,8 @@
   /* Default left side */
   .default-left {
     /* need to override bootstrap */
-    width: 400px !important;
+    width: 32rem !important;
+    font-size: 1.2rem;
   }
   
   /* Default left side */
@@ -115,7 +114,7 @@
   }
   
   .default-left .self-image {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
   }
   
   /* Participation List */

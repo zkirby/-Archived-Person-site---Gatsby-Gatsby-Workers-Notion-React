@@ -2,6 +2,7 @@ import React from 'react';
 
 import { Container, Image } from 'react-bootstrap';
 import Self from '../images/self.jpg';
+import NavLink from '../features/shared/NavLink';
 
 const LeftSide = () => (
   <Container className="default-left">
@@ -18,23 +19,17 @@ const LeftSide = () => (
       Zachary Kirby
     </h1>
     <p>
-      Hi there! My name is Zach, I'm a web-developer with a passion for building user-centric applications.
+      Hello, my name is Zach. I'm a web-developer by trade currently living in SF. I hail from the same 'small' town as Olivia Rodrigo and 
     </p>
     <p>
-      I'm currently working on building <a href="https://www.vessel.land/">Vessel.</a> We're hiring, come check us out!
+      I'm currently building <a href="https://www.vessel.land/">Vessel.</a> We're an API company unifying the notoriously fragmented CRM space through a developer-first lense.
     </p>
-    <p className="text-secondary">
-      Off the web I enjoy writing,
-      <a className="mx-1 text-secondary" href="https://amovieaminute.gatsbyjs.io/">cinema,</a>
+    <p>
+      When I'm not working on Vessel
+      <a className="mx-1" href="https://amovieaminute.gatsbyjs.io/">cinema,</a>
       and learning languages.
-      {/* If
-      you're interested in learning a little more
-      <span className="ml-1">
-        <Link className="about-me-link" to="/writing/about-me">
-          look here.
-        </Link>
-      </span> */}
     </p>
+    {/* <p>If you're still curious, you can read a little more <NavLink className="clear-style" to="/entry" params={{ postId: 'd40f73eaee9149a7aea1c7c8b01aaa8c' }}>about me here</NavLink></p> */}
     <a href="https://drive.google.com/a/berkeley.edu/file/d/1NcNQ4Z8nVl6Nro3bgpwU07zbAE9gFYl7/view?usp=sharing">
       Resume
     </a>

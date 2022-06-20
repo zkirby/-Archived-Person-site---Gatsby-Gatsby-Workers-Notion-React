@@ -12,7 +12,7 @@ const AllPosts = () => {
     return (
         <SkeletonLoading status={status} skeleton={<SkeletonAllPosts />}>
             {summaries.map(post =>
-                <NavLink key={post.id} className="clear-style" to="/entry" params={{ postId: post.id }}><h5>- {post.title}</h5></NavLink>
+                <NavLink key={post.id} className="clear-style" to="/entry" params={{ postId: post.id }}><h5>&gt; {post.title}</h5></NavLink>
             )}
         </SkeletonLoading>
     )
