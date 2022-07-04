@@ -30,12 +30,12 @@ const HomePage = () => {
               <LeftSide />
             </div>
           </Col>
-          <Col>
+          {/* <Col>
             <div className={`right-col main-col col-6 col-md-6`}>
               <h1 className="mb-3">Writings</h1>
               <AllPosts />
             </div>
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </PageWrapper>
