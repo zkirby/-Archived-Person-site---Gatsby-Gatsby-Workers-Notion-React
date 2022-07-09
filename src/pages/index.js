@@ -25,7 +25,7 @@ const HomePage = () => {
           <title>Zachary Kirby</title>
         </Helmet>
         <Row className="main-row">
-          <Col className={`left-col main-col col-6 col-md-6`}>
+          <Col className={`left-col main-col col-12 col-md-12`}>
             <div className="side-container">
               <LeftSide />
             </div>
